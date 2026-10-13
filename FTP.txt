@@ -1,0 +1,104 @@
+Frame 5042: Packet, 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface \Device\NPF_{50D6FACC-9510-43A8-A699-C5F37C759FFF}, id 0
+    Section number: 1
+    Interface id: 0 (\Device\NPF_{50D6FACC-9510-43A8-A699-C5F37C759FFF})
+        Interface name: \Device\NPF_{50D6FACC-9510-43A8-A699-C5F37C759FFF}
+        Interface description: Wi-Fi
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Oct 13, 2026 16:02:27.131076600 SE Asia Standard Time
+    UTC Arrival Time: Oct 13, 2026 09:02:27.131076600 UTC
+    Epoch Arrival Time: 1791882147.131076600
+    [Time shift for this packet: 0.000000000 seconds]
+    [Time delta from previous captured frame: 192.520600 milliseconds]
+    [Time delta from previous displayed frame: 1.094208600 seconds]
+    [Time since reference or first frame: 27.838504800 seconds]
+    Frame Number: 5042
+    Frame Length: 112 bytes (896 bits)
+    Capture Length: 112 bytes (896 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:ftp]
+    Character encoding: ASCII (0)
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: Intel_74:4c:bc (40:d1:33:74:4c:bc), Dst: VMware_b5:55:03 (00:50:56:b5:55:03)
+    Destination: VMware_b5:55:03 (00:50:56:b5:55:03)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: Intel_74:4c:bc (40:d1:33:74:4c:bc)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+    [Stream index: 380]
+Internet Protocol Version 4, Src: 10.252.134.13, Dst: 202.9.85.80
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+        0000 00.. = Differentiated Services Codepoint: Default (0)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 98
+    Identification: 0xa1c1 (41409)
+    010. .... = Flags: 0x2, Don't fragment
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    ...0 0000 0000 0000 = Fragment Offset: 0
+    Time to Live: 128
+    Protocol: TCP (6)
+    Header Checksum: 0x0000 [validation disabled]
+    [Header checksum status: Unverified]
+    Source Address: 10.252.134.13
+    Destination Address: 202.9.85.80
+    [Stream index: 260]
+Transmission Control Protocol, Src Port: 54138, Dst Port: 21, Seq: 326, Ack: 1381, Len: 58
+    Source Port: 54138
+    Destination Port: 21
+    [Stream index: 8]
+    [Stream Packet Number: 67]
+    [Conversation completeness: Complete, WITH_DATA (31)]
+        ..0. .... = RST: Absent
+        ...1 .... = FIN: Present
+        .... 1... = Data: Present
+        .... .1.. = ACK: Present
+        .... ..1. = SYN-ACK: Present
+        .... ...1 = SYN: Present
+        [Completeness Flags: ·FDASS]
+    [TCP Segment Len: 58]
+    Sequence Number: 326    (relative sequence number)
+    Sequence Number (raw): 2554165368
+    [Next Sequence Number: 384    (relative sequence number)]
+    Acknowledgment Number: 1381    (relative ack number)
+    Acknowledgment number (raw): 1069950692
+    0101 .... = Header Length: 20 bytes (5)
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Accurate ECN: Not set
+        .... 0... .... = Congestion Window Reduced: Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+    Window: 255
+    [Calculated window size: 65280]
+    [Window size scaling factor: 256]
+    Checksum: 0xb0b7 [unverified]
+    [Checksum Status: Unverified]
+    Urgent Pointer: 0
+    [Timestamps]
+        [Time since first frame in this TCP stream: 11.154338700 seconds]
+        [Time since previous frame in this TCP stream: 1.094071200 seconds]
+    [SEQ/ACK analysis]
+        [iRTT: 22.985400 milliseconds]
+        [Bytes in flight: 58]
+        [Bytes sent since last PSH flag: 58]
+    [Client Contiguous Streams: 1]
+    [Server Contiguous Streams: 1]
+    TCP payload (58 bytes)
+File Transfer Protocol (FTP)
+    CWD /audio/30 Seconds to Mars - A Beautiful Lie [iTunes]\r\n
+        Request command: CWD
+        Request arg: /audio/30 Seconds to Mars - A Beautiful Lie [iTunes]
+[Current working directory: /audio/3 Doors Down - The Greatest Hits]
